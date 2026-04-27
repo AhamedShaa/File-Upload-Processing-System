@@ -13,7 +13,7 @@ This project demonstrates a production-ready file processing pipeline that:
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](./architecture-diagram.png)
+![Architecture Diagram](./architecture.png)
 
 ### Components
 
