@@ -1,0 +1,98 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.pytest_cache
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# AWS
+.aws/
+aws_credentials
+.env
+.env.local
+*.pem
+*.key
+
+# Lambda ZIP files
+*.zip
+lambdas/presign.zip
+lambdas/processor.zip
+lambdas/status.zip
+
+# Large dependencies - use requirements.txt instead
+lambdas/processor/PIL/
+lambdas/processor/pillow-*.dist-info/
+lambdas/processor/pillow.libs/
+
+# Test files
+test_results/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+temp/
+tmp/
+node_modules/
+.env.local
+.env.*.local
+
+# Local development
+local/
+.localstack/
+
+# Keep these important files
+!.gitkeep
+!.env.example

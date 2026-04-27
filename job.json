@@ -1,0 +1,28 @@
+{
+    "Item": {
+        "createdAt": {
+            "S": "1776834461.7466197"
+        },
+        "expiresAt": {
+            "N": "1777439261"
+        },
+        "filename": {
+            "S": "A.Ahamed.jpg"
+        },
+        "jobId": {
+            "S": "fb5d2bbd-a0ec-4464-9560-342fa79566b6"
+        },
+        "outputKeys": {
+            "S": "{\"large\": \"processed/large/fb5d2bbd-a0ec-4464-9560-342fa79566b6/A.Ahamed.jpg\", \"thumbnail\": \"processed/thumbnail/fb5d2bbd-a0ec-4464-9560-342fa79566b6/A.Ahamed.jpg\"}"
+        },
+        "processedAt": {
+            "S": "1776834466.0247755"
+        },
+        "s3Key": {
+            "S": "uploads/fb5d2bbd-a0ec-4464-9560-342fa79566b6/A.Ahamed.jpg"
+        },
+        "status": {
+            "S": "DONE"
+        }
+    }
+}
